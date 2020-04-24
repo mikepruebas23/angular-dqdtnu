@@ -5,10 +5,8 @@ import { RetoComponent } from './reto/reto.component';
 
 const routes: Routes = [
   { path:  '', redirectTo:  'contacts', pathMatch:  'full' },
-    {
-    path: 'app-reto',
-    component: RetoComponent
-  },
+  { path: 'my-app', component: AppComponent },
+  { path: 'app-reto', component: RetoComponent },
 
 ];
 @NgModule({
