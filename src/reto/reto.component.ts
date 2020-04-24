@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {  FormGroup,FormControl } from '@angular/forms';
 
 @Component({
   selector: 'reto',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: [ './reto.component.css' ]
 })
 export class RetoComponent  {
-  
+ profileForm = new FormGroup({
+    firstName: new FormControl(''),
+    lastName: new FormControl(''),
+  });
 }
