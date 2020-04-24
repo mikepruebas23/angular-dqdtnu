@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-reto',
+  selector: 'reto',
   templateUrl: './reto.component.html',
   styleUrls: [ './reto.component.css' ]
 })
